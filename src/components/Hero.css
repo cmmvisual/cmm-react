@@ -1,0 +1,137 @@
+/* --- ring-only styles; do not touch your existing hero/button/text styles --- */
+
+/* keep your original .hero-section, .hero-content, .hero-button, etc. */
+
+* {
+    padding: 0;
+    margin: 0;
+    border: none;
+}
+
+body {
+      background-color: #0A061D;
+}
+
+.hero-section {
+    position: relative;
+    height: 100vh;
+}
+
+.hero-content {
+    color: white;
+}
+
+
+/* ensures your original text/button sit above the ring without changing their styling */
+.circular-content {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+  z-index: 2; /* above the ring */
+  color: #F05318;
+}
+
+.circular-content > h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.75);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.circular-content > p {
+    color: #FFF;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 0 4px 20px rgba(0, 0, 0, 0.75);
+    font-family: Montserrat;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.hero-button {
+    display: flex;
+    text-decoration: none;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 30px;
+    background: #FFF;   
+    color: #0A061D;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+/* the ring sits behind the text, centered, and ignores pointer events */
+.circular-slider-container {
+  position: absolute; /* overlays the hero, but z-index is below content */
+  inset: 0;
+  display: grid;
+  place-items: center;
+  z-index: 1;
+  pointer-events: none;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* you can tweak the ring size with this CSS var from anywhere */
+:root {
+  --ring-diameter: 680px;
+}
+
+.circular-images-wrapper {
+  position: relative;
+  width: var(--ring-diameter);
+  height: var(--ring-diameter);
+  border-radius: 30px;
+  will-change: transform;
+}
+
+.circular-image-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform-origin: 0 0;
+}
+
+.circular-image-box .img-keeper {
+  width: 210px;
+  height: 210px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 24px rgba(0,0,0,.25);
+  will-change: transform;
+}
+
+.circular-image-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* optional responsiveness that won't touch your existing hero text/button styles */
+@media (max-width: 900px) {
+  :root { --ring-diameter: 540px; }
+  .circular-image-box .img-keeper { width: 88px; height: 88px; }
+}
+@media (max-width: 640px) {
+  :root { --ring-diameter: 420px; }
+  .circular-image-box .img-keeper { width: 72px; height: 72px; }
+}

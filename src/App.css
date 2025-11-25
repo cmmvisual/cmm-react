@@ -1,0 +1,13 @@
+.mainContent {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+
+.max-width-900 {
+  max-width: 900px;
+  margin: auto;
+}
+
+.pad-100 {padding: 100px 0px} .pad-200 {padding: 200px 0px} 
