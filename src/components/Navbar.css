@@ -1,24 +1,28 @@
 /* src/components/Navbar.css */
 .navContainer {
+    width: 100%;
     position: absolute;
-    padding: 50px;
     z-index: 500;
+    overflow: visible;
+    background: linear-gradient(0deg, #0A061D00, #0a061dd5 90%) ;
 }
 
 .navbar {
   display: flex;
+  padding: 40px;
   justify-content: space-between;
-  align-items: center;
-  background-color: #282c34;
-  padding: 10px 20px;
+  align-items: top;
   color: white;
-  border-radius: 30px;
 }
 
 .navbar-logo {
   font-size: 1.5rem;
   color: white;
   text-decoration: none;
+}
+
+.navbar-logo img {
+  width: 75px;
 }
 
 .navbar-links {
@@ -28,6 +32,17 @@
 }
 
 .navbar-links a {
-  color: white;
+  color: #0A061D;
   text-decoration: none;
+  background-color: white;
+  padding: 5px 15px;
+  border-radius: 30px;
+  transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.navbar-links a:hover{
+  cursor: pointer;
+  color: white;
+  background-color: #F05318;
+  padding: 5px 25px;
 }

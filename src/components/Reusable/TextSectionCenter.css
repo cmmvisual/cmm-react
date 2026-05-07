@@ -1,0 +1,17 @@
+.text-section-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px 20px;
+  color: white;
+}
+
+.text-content-inner {
+  max-width: 800px; /* Limits width for better readability */
+  text-align: center;
+}
+
+/* Optional: Last paragraph doesn't need bottom margin */
+.section-paragraph:last-child {
+  margin-bottom: 0;
+}

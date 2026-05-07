@@ -1,0 +1,18 @@
+/* Wrapper inherits all heading styles — add no size/color here */
+.sh-root {
+  display: block;
+}
+
+/* Each word clips its characters — the mask that makes the reveal clean */
+.sh-word {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  line-height: inherit;
+}
+
+/* Each character slides inside the word mask */
+.sh-char {
+  display: inline-block;
+  will-change: transform, opacity;
+}

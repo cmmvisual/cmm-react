@@ -1,0 +1,42 @@
+.softwares-container {
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.icon-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap; /* Allows icons to stack on mobile */
+  max-width: 1200px;
+}
+
+.app-icon {
+  width: 85px;
+  height: 85px;
+  object-fit: contain;
+  /* The "squircle" look */
+  border-radius: 20px; 
+  transition: transform 0.2s ease-in-out;
+}
+
+.app-icon:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+  .app-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 14px;
+  }
+  
+  .icon-row {
+    gap: 15px;
+  }
+}

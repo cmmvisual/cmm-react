@@ -1,0 +1,59 @@
+.logoslider-container {
+  width: 100%;
+  overflow: hidden;
+  padding: 30px 0;
+  display: flex;
+}
+
+.logoslider-track {
+  display: flex;
+  width: max-content;
+}
+
+/* LEFT Direction */
+.slide-left {
+  animation: slideLeft linear infinite;
+}
+
+/* RIGHT Direction */
+.slide-right {
+  animation: slideRight linear infinite;
+}
+
+.logoslider-item {
+  width: 180px;
+  height: 80px;
+  margin: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.logoslider-item img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+/* LEFT Direction */
+@keyframes slideLeft {
+  0% { 
+    transform: translateX(0); 
+  }
+  100% { 
+    /* Move exactly 1/4 of the total track (one full set) */
+    transform: translateX(-25%); 
+  }
+}
+
+/* RIGHT Direction */
+@keyframes slideRight {
+  0% { 
+    /* Start offset by one full set */
+    transform: translateX(-25%); 
+  }
+  100% { 
+    transform: translateX(0); 
+  }
+}
