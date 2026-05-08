@@ -22,7 +22,7 @@ function Medieninsider() {
 
         <SEO 
             title="Portfolio - Medieninsider" 
-            description="Welcome to my website homepage"
+            description="Logo und Brandentwicklung vom Fachmagazin Medieninsider"
         />
 
         <div className='ref-hero'>

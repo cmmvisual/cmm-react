@@ -28,8 +28,8 @@ const sliderImages = [
     <div>
 
         <SEO 
-            title="Portfolio - Gewobag" 
-            description="Welcome to my website homepage"
+            title="Portfolio - DRF: Welt der Luftretter" 
+            description="Projekt von der DRF Luftrettung"
         />
 
         <div className='ref-hero'>

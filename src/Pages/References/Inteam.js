@@ -34,7 +34,7 @@ function Inteam() {
 
         <SEO 
             title="Portfolio - Inteam" 
-            description="Welcome to my website homepage"
+            description="Branding und Packaing Design für ein Produkt-Launch"
         />
 
         <div className='ref-hero'>

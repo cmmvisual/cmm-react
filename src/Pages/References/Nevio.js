@@ -16,8 +16,8 @@ function Nevio() {
     <div>
 
         <SEO 
-            title="Portfolio - Gewobag" 
-            description="Welcome to my website homepage"
+            title="Musikvideo von Nevio Passaro" 
+            description="Animation der overlays von Musikvideo von Nevio Passaro - Gelato."
         />
 
         <div className='ref-hero'>

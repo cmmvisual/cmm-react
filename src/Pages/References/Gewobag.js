@@ -28,7 +28,7 @@ function Gewobag() {
 
         <SEO 
             title="Portfolio - Gewobag" 
-            description="Welcome to my website homepage"
+            description="Projekt mit Gewobag"
         />
 
         <div className='ref-hero'>

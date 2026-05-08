@@ -14,6 +14,7 @@ import DRF from './Pages/References/DRF.js';
 import Inteam from './Pages/References/Inteam.js';
 import Nevio from './Pages/References/Nevio.js';
 import JanPlewka from './Pages/References/jan-plewka.js';
+import Innovationspreis from './Pages/References/innovationspreis.js';
 
 
 import Impressum from './Pages/Impressum.js';
@@ -37,6 +38,7 @@ function App() {
           <Route path="/inteam" element={<Inteam/>} />
           <Route path="/nevio" element={<Nevio/>} />
           <Route path="/jan-plewka" element={<JanPlewka/>} />
+          <Route path="/innovationspreis" element={<Innovationspreis/>} />
 
 
           <Route path="/impressum" element={<Impressum/>} />
