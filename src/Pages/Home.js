@@ -50,6 +50,7 @@ import ClientNevio from '../assets/Refs/Nevio/Home-Gelato_Cover.png'
 import ClientMedieninsider from '../assets/Refs/Medieninsider/Home-Medieninsider_Cover.png'
 import ClientInteam from '../assets/Refs/Inteam/Home-Inteam_Cover.png'
 import ClientJan from '../assets/Refs/Jan/Home-Jan_Cover.png'
+import ClientInno from '../assets/Refs/Innovationspreis/Home-Innopreis.png'
 
 // Asset Imports-References
 import starLila from '../assets/Images/Brandelements/Star-Lila.svg';
@@ -244,9 +245,9 @@ const Home = () => {
 
           <div className='pad-v-100'>
 
-              <TextSectionCenter title="Projekte" 
+              <TextSectionCenter title="Projektauswahl" 
                 paragraphs={[
-              "Viele meiner Referenzen sind aus vertraulichen Projekten und daher nicht öffentlich einsehbar. Auf Anfrage stelle ich jedoch gerne ausgewählte Arbeitsproben zur Verfügung." 
+              "Da viele meiner Arbeiten der Geheimhaltung unterliegen, zeigt diese Auswahl nur einen Bruchteil meines Portfolios. Gerne präsentiere ich Ihnen in einem persönlichen Gespräch weitere, spezifische Referenzen." 
               ]}
               />
 
@@ -257,8 +258,8 @@ const Home = () => {
                     <span className='ref-title'>Jan Plewka</span> 
                     <span className="read-more">read more</span>
                   </div>
-                  <img src={ClientJan} alt="Gewobag Client Cover" className='client-image'/>
-                  <img src={starLila} alt="Gewobag Client Cover" className='clienticon-lila'/>
+                  <img src={ClientJan} alt="Jan Plewka Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
                 <Link to="/nevio"  className='clients-container'>
@@ -266,8 +267,8 @@ const Home = () => {
                     <span className='ref-title'>Nevio Passaro - Gelato</span> 
                     <span className="read-more">read more</span>
                   </div>
-                  <img src={ClientNevio} alt="Gewobag Client Cover" className='client-image'/>
-                  <img src={starLila} alt="Gewobag Client Cover" className='clienticon-lila'/>
+                  <img src={ClientNevio} alt="Nevio Passaro Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
                 <Link to="/inteam" className='clients-container'>
@@ -275,8 +276,8 @@ const Home = () => {
                     <span className='ref-title'>Inteam Beziehungsbox</span> 
                     <span className="read-more">read more</span>
                   </div>
-                  <img src={ClientInteam} alt="Gewobag Client Cover" className='client-image'/>
-                  <img src={starLila} alt="Gewobag Client Cover" className='clienticon-lila'/>
+                  <img src={ClientInteam} alt="Inteam Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
                 <Link to="/drf" className='clients-container'>
@@ -284,8 +285,8 @@ const Home = () => {
                     <span className='ref-title'>DRF - Welt der Luftretter</span> 
                     <span className="read-more">read more</span>
                   </div>
-                  <img src={ClientDRF} alt="Gewobag Client Cover" className='client-image'/>
-                  <img src={starLila} alt="Gewobag Client Cover" className='clienticon-lila'/>
+                  <img src={ClientDRF} alt="DRF - Welt der Luftretter Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
                 <Link to="/medieninsider" className='clients-container'>
@@ -293,8 +294,17 @@ const Home = () => {
                     <span className='ref-title'>Medieninsider</span> 
                     <span className="read-more">read more</span>
                   </div>
-                  <img src={ClientMedieninsider} alt="Gewobag Client Cover" className='client-image'/>
-                  <img src={starLila} alt="Gewobag Client Cover" className='clienticon-lila'/>
+                  <img src={ClientMedieninsider} alt="Medieninsider Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
+                </Link>
+
+                <Link to="/innovationspreis" className='clients-container'>
+                  <div>
+                    <span className='ref-title'>Innovationspreis BB</span> 
+                    <span className="read-more">read more</span>
+                  </div>
+                  <img src={ClientInno} alt="Innovationspreis Berlin-Brandenburg Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
                 <Link to="/gewobag" className='clients-container'>
@@ -303,7 +313,7 @@ const Home = () => {
                     <span className="read-more">read more</span>
                   </div>
                   <img src={ClientGewobag} alt="Gewobag Client Cover" className='client-image'/>
-                  <img src={starLila} alt="Gewobag Client Cover" className='clienticon-lila'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
               </div>
