@@ -1,2 +1,5 @@
 [phases.install]
 cmds = ["npm install"]
+
+[start]
+cmd = "npx serve -s build -l 3000"
