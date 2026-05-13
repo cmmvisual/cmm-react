@@ -13,8 +13,8 @@ function Footer() {
         <div className='Footer'>
         <div>
             <div className='social-icons'>
-                <a href=''><img src={SocialInsta}></img></a>
-                <a href=''><img src={SocialLinkedin}></img></a>
+                <a href='https://www.instagram.com/cmmvisual/' target="_blank"><img src={SocialInsta}></img></a>
+                <a href='https://www.linkedin.com/in/catalina-mejia-martinez/' target="_blank"><img src={SocialLinkedin}></img></a>
             </div>
 
             <h2>Design für Menschen von Menschen.</h2>
