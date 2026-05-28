@@ -1,0 +1,122 @@
+.contact-form-wrapper {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 48px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.form-field label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #B1FD03;
+}
+
+.form-field input {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 14px 16px;
+  color: #ffffff;
+  font-family: "Geist", sans-serif;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.form-field textarea {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 8px;
+  padding: 14px 16px;
+  color: #ffffff;
+  font-family: "Geist", sans-serif;
+  font-size: 1rem;
+  outline: none;
+  resize: vertical;
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.form-field textarea::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-field textarea:focus {
+  border-color: #B1FD03;
+  background: rgba(177, 253, 3, 0.05);
+}
+
+.form-field input::placeholder {
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.form-field input:focus {
+  border-color: #B1FD03;
+  background: rgba(177, 253, 3, 0.05);
+}
+
+.form-submit-btn {
+  margin-top: 8px;
+  padding: 16px 32px;
+  background: #B1FD03;
+  color: #0a0a1a;
+  font-family: "Geist", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.15s ease;
+}
+
+.form-submit-btn:hover {
+  background: #c8ff1a;
+  transform: translateY(-1px);
+}
+
+.form-submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.form-error {
+  color: #F05318;
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.form-success {
+  text-align: center;
+  padding: 24px 0;
+}
+
+.form-success p {
+  font-size: 1.1rem;
+  color: #B1FD03;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .contact-form-wrapper {
+    padding: 28px 20px;
+  }
+}

@@ -19,6 +19,7 @@ import Innovationspreis from './Pages/References/innovationspreis.js';
 
 import Impressum from './Pages/Impressum.js';
 import Datenschutz from './Pages/Datenschutz.js';
+import CookieBanner from './components/CookieBanner.js';
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <ScrollToTop />
       <div className="App">
         <Navbar />
+        <CookieBanner />
         
         <Routes>
           <Route path="/" element={<Home />} />

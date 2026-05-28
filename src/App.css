@@ -113,6 +113,31 @@ p {
   margin-bottom: 1rem;
 }
 
+.legal-page a {
+  color: #B1FD03;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.legal-page a:hover {
+  color: #d4ff5a;
+}
+
+.legal-page ul {
+  color: #e0e0e0;
+  line-height: 1.8;
+  padding-left: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.legal-page code {
+  background: rgba(177, 253, 3, 0.12);
+  color: #B1FD03;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 0.875em;
+}
+
 /* Mobile Responsiveness */
 @media (max-width: 900px) {
   .mainContent {
