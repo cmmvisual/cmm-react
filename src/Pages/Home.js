@@ -162,7 +162,7 @@ const Home = () => {
                   </div>
                   <div className='flip-card-back'>
                     <div className='flip-card-back-content'>
-                      <p>Creative visual strategy and brand identity development</p>
+                      <p>Kreative visuelle Strategie und Entwicklung von Markenidentitäten</p>
                     </div>
                   </div>
                 </div>
@@ -177,7 +177,7 @@ const Home = () => {
                   </div>
                   <div className='flip-card-back'>
                     <div className='flip-card-back-content'>
-                      <p>Dynamic animations and engaging visual storytelling</p>
+                      <p>Dynamische Animationen und fesselndes visuelles Storytelling</p>
                     </div>
                   </div>
                 </div>
@@ -192,7 +192,7 @@ const Home = () => {
                   </div>
                   <div className='flip-card-back'>
                     <div className='flip-card-back-content'>
-                      <p>Immersive user experiences and innovative interactions</p>
+                      <p>Immersive Nutzererlebnisse und innovative Interaktionen</p>
                     </div>
                   </div>
                 </div>

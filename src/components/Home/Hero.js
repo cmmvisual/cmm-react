@@ -1,6 +1,7 @@
 // src/components/Hero.js
 import './Hero.css';
 import HeroCanvas from './HeroCanvas';
+import { Link } from 'react-router-dom';
 
 function Hero() {
   return (
@@ -9,11 +10,11 @@ function Hero() {
       <div className="overlay"></div>
 
       <div className="hero-content circular-content">
-        <h1>Design for Humans</h1>
+        <h1>Art Direction & Motion Design</h1>
         <p>Catalina Mejia Martinez</p>
-        <a className="hero-button" href="https://cmmvisual.webflow.io/">
-          Go to Main Page
-        </a>
+        <Link className="hero-button" to="/contact">
+          Jetzt Kontaktieren
+        </Link>
       </div>
 
     </div>
