@@ -49,5 +49,12 @@
 
 .datenschutz a {
     color: white;
+}
 
+@media (max-width: 480px) {
+  .datenschutz {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
 }

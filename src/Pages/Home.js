@@ -3,7 +3,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './Home.css';
 
-import Hero from '../components/Home/Hero';
+import HeroVideo from '../components/Home/HeroVideo';
 import BackgroundBlobs from '../components/Home/BackgroundBlobs';
 import Softwares from '../components/Home/Softwares';
 import VimeoEmbed from '../components/Reusable/VimeoEmbed';
@@ -107,7 +107,7 @@ const Home = () => {
         description="Welcome to my website homepage"
       />
 
-      <Hero />
+      <HeroVideo />
 
       
       

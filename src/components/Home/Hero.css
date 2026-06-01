@@ -33,53 +33,60 @@
 .circular-content {
   position: absolute;
   display: flex;
-  overflow: visible;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 30;
-  z-index: 2; /* above the ring */
-  overflow: visible;
+  z-index: 2;
+  width: min(90%, 700px);
+  padding: 0 20px;
+  text-align: center;
 }
 
 .circular-content > h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 16px;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.75);
-    font-size: 48px;
+    font-size: clamp(1.8rem, 5vw + 0.5rem, 3rem);
     font-style: normal;
-    line-height: normal;
+    line-height: 1.15;
 }
 
 .circular-content > p {
     color: #FFF;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     text-shadow: 0 4px 20px rgba(0, 0, 0, 0.75);
-    font-size: 28px;
+    font-size: clamp(1rem, 2vw + 0.25rem, 1.75rem);
     font-style: normal;
     font-weight: 400;
-    line-height: normal;
+    line-height: 1.4;
 }
 
 .hero-button {
     display: flex;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 24px;
     justify-content: center;
     align-items: center;
     gap: 10px;
     border-radius: 30px;
-    background: #FFF;   
+    background: #FFF;
     color: #0A061D;
-    font-size: 16px;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
     font-style: normal;
     font-weight: 500;
     line-height: normal;
     text-transform: uppercase;
+}
+
+@media (max-width: 480px) {
+  .circular-content {
+    width: 92%;
+    padding: 0 16px;
+  }
 }
 
 /* the ring sits behind the text, centered, and ignores pointer events */
