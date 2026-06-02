@@ -52,8 +52,8 @@ function Gewobag() {
 
             <div className='m-bottom-100'>
                 <VimeoEmbed
-                videoId="1090020661" 
-                privateHash="ca88b1bc84" 
+                videoId="1197636621" 
+                privateHash="091449f423" 
                 title="My Private Vimeo Video" 
                 />
             </div>
