@@ -15,9 +15,10 @@ function Nevio() {
   return (
     <div>
 
-        <SEO 
-            title="Portfolio - Innovationspreis Berlin-Brandenburg" 
-            description="Motion Graphics zu den Videos"
+        <SEO
+            title="Innovationspreis Berlin-Brandenburg – Motion Graphics | Catalina Mejia Martinez"
+            description="Motion Graphics für den Innovationspreis Berlin-Brandenburg – Animationen für Preisverleihung, Live-Event und digitale Präsentation via Movact. Berlin."
+            keywords="Innovationspreis Berlin-Brandenburg, Motion Graphics, Animation, Event Design, Movact, Preisverleihung, Berlin, Catalina Mejia Martinez"
         />
 
         <div className='ref-hero'>

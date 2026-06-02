@@ -51,6 +51,7 @@ import ClientMedieninsider from '../assets/Refs/Medieninsider/Home-Medieninsider
 import ClientInteam from '../assets/Refs/Inteam/Home-Inteam_Cover.png'
 import ClientJan from '../assets/Refs/Jan/Home-Jan_Cover.png'
 import ClientInno from '../assets/Refs/Innovationspreis/Home-Innopreis.png'
+import ClientBBU from '../assets/Refs/BBU/Home-BBU_Cover.png'
 
 // Asset Imports-References
 import starLila from '../assets/Images/Brandelements/Star-Lila.svg';
@@ -103,8 +104,8 @@ const Home = () => {
     <>
       <BackgroundBlobs />
        <SEO
-        title="Catalina Mejia Martinez – Art Direction & Motion Design Berlin"
-        description="Freiberufliche Art Directorin und Motion Designerin aus Berlin. Portfolio mit Projekten aus Branding, Animation, UI-Design, Motion Graphics und Interactive Design."
+        title="Art Direction & Motion Design Berlin | Catalina Mejia Martinez"
+        description="Kreative Art Direction & Motion Design in Berlin. 2D/3D Animationen, Brand Assets & Video-Content für Agenturen, Events und Social Media. Jetzt anfragen!"
         keywords="Art Direction, Motion Design, Branding, Animation, UI Design, Interactive Design, Motion Graphics, 3D Design, Freelance, Berlin, Catalina Mejia Martinez, cmmvisual"
       />
 
@@ -272,6 +273,15 @@ const Home = () => {
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
+                <Link to="/bbu-verbandstag" className='clients-container'>
+                  <div>
+                    <span className='ref-title'>BBU Verbandstag</span>
+                    <span className="read-more">read more</span>
+                  </div>
+                  <img src={ClientBBU} alt="BBU Verbandstag Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
+                </Link>
+
                 <Link to="/inteam" className='clients-container'>
                   <div>
                     <span className='ref-title'>Inteam Beziehungsbox</span> 
@@ -310,7 +320,7 @@ const Home = () => {
 
                 <Link to="/gewobag" className='clients-container'>
                   <div>
-                    <span className='ref-title'>Gewobag</span> 
+                    <span className='ref-title'>Gewobag</span>
                     <span className="read-more">read more</span>
                   </div>
                   <img src={ClientGewobag} alt="Gewobag Client Cover" className='client-image'/>

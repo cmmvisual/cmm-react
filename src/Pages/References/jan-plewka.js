@@ -15,9 +15,10 @@ function Nevio() {
   return (
     <div>
 
-        <SEO 
-            title="Portfolio - Jan Plewka" 
-            description="Welcome to my website homepage"
+        <SEO
+            title="Jan Plewka × Lina Mały – Motion Graphics Musikvideo | Catalina Mejia Martinez"
+            description="Motion Graphics und Illustration-Animationen für das Musikvideo 'Die schlaksige Windin' von Jan Plewka × Lina Mały. Catalina Mejia Martinez, Berlin."
+            keywords="Jan Plewka, Lina Mały, Die schlaksige Windin, Musikvideo, Motion Graphics, Animation, Illustration, Berlin, Catalina Mejia Martinez"
         />
 
         <div className='ref-hero'>

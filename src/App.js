@@ -15,11 +15,13 @@ import Inteam from './Pages/References/Inteam.js';
 import Nevio from './Pages/References/Nevio.js';
 import JanPlewka from './Pages/References/jan-plewka.js';
 import Innovationspreis from './Pages/References/innovationspreis.js';
+import BBUVerbandstag from './Pages/References/BBU-Verbandstag.js';
 
 
 import Impressum from './Pages/Impressum.js';
 import Datenschutz from './Pages/Datenschutz.js';
 import CookieBanner from './components/CookieBanner.js';
+import ScrollToTopButton from './components/ScrollToTopButton.js';
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
       <div className="App">
         <Navbar />
         <CookieBanner />
+        <ScrollToTopButton />
         
         <Routes>
           <Route path="/" element={<Home />} />
@@ -41,6 +44,7 @@ function App() {
           <Route path="/nevio" element={<Nevio/>} />
           <Route path="/jan-plewka" element={<JanPlewka/>} />
           <Route path="/innovationspreis" element={<Innovationspreis/>} />
+          <Route path="/bbu-verbandstag" element={<BBUVerbandstag/>} />
 
 
           <Route path="/impressum" element={<Impressum/>} />

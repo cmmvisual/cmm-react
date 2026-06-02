@@ -15,9 +15,10 @@ function Nevio() {
   return (
     <div>
 
-        <SEO 
-            title="Musikvideo von Nevio Passaro" 
-            description="Animation der overlays von Musikvideo von Nevio Passaro - Gelato."
+        <SEO
+            title="Nevio Passaro – Gelato Musikvideo Motion Graphics | Catalina Mejia Martinez"
+            description="Motion Graphics und Overlay-Animationen für das Musikvideo 'Gelato' von Nevio Passaro – digitale Illustration und Animation. Catalina Mejia Martinez, Berlin."
+            keywords="Nevio Passaro, Gelato, Musikvideo, Motion Graphics, Animation, Illustration, Overlay, Berlin, Catalina Mejia Martinez"
         />
 
         <div className='ref-hero'>

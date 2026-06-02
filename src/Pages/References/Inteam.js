@@ -32,9 +32,10 @@ function Inteam() {
   return (
     <div>
 
-        <SEO 
-            title="Portfolio - Inteam" 
-            description="Branding und Packaing Design für ein Produkt-Launch"
+        <SEO
+            title="INTEAM Beziehungsbox – Branding & Packaging Design | Catalina Mejia Martinez"
+            description="Branding und Packaging Design für den Produkt-Launch der INTEAM Beziehungsbox – visuelle Identität und Gestaltung. Art Direction & Design, Berlin."
+            keywords="Inteam, Beziehungsbox, Branding, Packaging Design, Produkt-Launch, Corporate Identity, Art Direction, Berlin, Catalina Mejia Martinez"
         />
 
         <div className='ref-hero'>

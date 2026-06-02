@@ -57,7 +57,7 @@ function HeroVideo() {
       <div className="overlay" style={{ zIndex: 1 }} />
 
       <div className="hero-content circular-content" style={{ zIndex: 2 }}>
-        <h1>Art Direction & Motion Design</h1>
+        <h1>Art Direction & Motion Design aus Berlin</h1>
         <p>Catalina Mejia Martinez</p>
         <Link className="hero-button" to="/contact">
           Anfrage stellen

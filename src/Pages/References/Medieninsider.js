@@ -20,9 +20,10 @@ function Medieninsider() {
   return (
     <div>
 
-        <SEO 
-            title="Portfolio - Medieninsider" 
-            description="Logo und Brandentwicklung vom Fachmagazin Medieninsider"
+        <SEO
+            title="Medieninsider – Logo & Brand Design | Catalina Mejia Martinez"
+            description="Logo und Markenentwicklung für das Fachmagazin Medieninsider – Corporate Identity, Typografie und visuelle Kommunikation. Art Direction, Berlin."
+            keywords="Medieninsider, Logo Design, Branding, Corporate Identity, Brand Design, Fachmagazin, Art Direction, Berlin, Catalina Mejia Martinez"
         />
 
         <div className='ref-hero'>

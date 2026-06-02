@@ -26,9 +26,10 @@ function Gewobag() {
   return (
     <div>
 
-        <SEO 
-            title="Portfolio - Gewobag" 
-            description="Projekt mit Gewobag"
+        <SEO
+            title="Gewobag – Motion Design & Animation | Catalina Mejia Martinez"
+            description="Motion Design und Animation für die Gewobag – visuelle Kommunikation für Berlins größtes kommunales Wohnungsunternehmen. Motion Graphics & Art Direction, Berlin."
+            keywords="Gewobag, Motion Design, Animation, Motion Graphics, Art Direction, Wohnungsunternehmen, Berlin, Catalina Mejia Martinez"
         />
 
         <div className='ref-hero'>

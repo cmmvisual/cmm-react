@@ -27,9 +27,10 @@ const sliderImages = [
   return (
     <div>
 
-        <SEO 
-            title="Portfolio - DRF: Welt der Luftretter" 
-            description="Projekt von der DRF Luftrettung"
+        <SEO
+            title="DRF Welt der Luftretter – Interactive & UI Design | Catalina Mejia Martinez"
+            description="Interactive Design und UI für die DRF Luftrettung – immersive digitale Erlebnisse rund um die Welt der Luftretter. Art Direction & Motion Design, Berlin."
+            keywords="DRF Luftrettung, Welt der Luftretter, Interactive Design, UI Design, Motion Graphics, Art Direction, Berlin, Catalina Mejia Martinez"
         />
 
         <div className='ref-hero'>
