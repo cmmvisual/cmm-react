@@ -17,8 +17,8 @@ function Footer() {
                 <a href='https://www.linkedin.com/in/catalina-mejia-martinez/' target="_blank"><img src={SocialLinkedin}></img></a>
             </div>
 
-            <h2>Design für Menschen von Menschen.</h2>
-            <p>Lass uns Zusammenarbeiten!</p>
+            <h2>Design für Menschen, gemacht von Menschen.</h2>
+            <p>Zuhause in Berlin. Globally minded.</p>
             <a className='kontakt-button' href='mailto:kontakt@cmmvisual.com'>kontakt@cmmvisual.com</a>
         </div>
         

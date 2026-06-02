@@ -66,20 +66,19 @@
 }
 
 .hero-button {
-    display: flex;
-    text-decoration: none;
-    padding: 10px 24px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    border-radius: 30px;
-    background: #FFF;
     color: #0A061D;
-    font-size: clamp(0.8rem, 1.5vw, 1rem);
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-    text-transform: uppercase;
+    text-decoration: none;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+.hero-button:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #F05318;
+    padding: 5px 25px;
 }
 
 @media (max-width: 480px) {

@@ -1,43 +1,89 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon-32.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
+
+    <!-- Identity & crawling -->
+    <meta name="author" content="Catalina Mejia Martinez" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#0A061D" />
+
+    <!-- Default description (overridden per-page by SEO component) -->
     <meta
       name="description"
-      content="Catalina Mejia Martinez Homepage"
+      content="Catalina Mejia Martinez – freiberufliche Art Directorin und Motion Designerin aus Berlin. Spezialisiert auf Branding, Animation, UI- und Interactive Design."
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>Catalina Mejia Martinez Portfolio</title>
+    <!-- Open Graph defaults -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Catalina Mejia Martinez" />
+    <meta property="og:locale" content="de_DE" />
+    <meta property="og:url" content="https://cmmvisual.de" />
+    <meta
+      property="og:title"
+      content="Catalina Mejia Martinez – Art Direction & Motion Design"
+    />
+    <meta
+      property="og:description"
+      content="Freiberufliche Art Directorin und Motion Designerin aus Berlin. Branding, Animation, UI-Design und Interactive Design."
+    />
+
+    <!-- Twitter Card defaults -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Catalina Mejia Martinez – Art Direction & Motion Design"
+    />
+    <meta
+      name="twitter:description"
+      content="Freiberufliche Art Directorin und Motion Designerin aus Berlin. Branding, Animation, UI-Design und Interactive Design."
+    />
+
+    <!-- Icons -->
+    <link rel="icon" href="%PUBLIC_URL%/favicon-32.png" />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <!-- Font preconnects — reduce render-blocking latency -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+
+    <!-- Structured data: Person + Portfolio -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Catalina Mejia Martinez",
+      "jobTitle": "Art Directorin & Motion Designerin",
+      "url": "https://cmmvisual.de",
+      "email": "kontakt@cmmvisual.de",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Berlin",
+        "addressCountry": "DE"
+      },
+      "sameAs": [
+        "https://www.instagram.com/cmmvisual/",
+        "https://www.linkedin.com/in/catalina-mejia-martinez/"
+      ],
+      "knowsAbout": [
+        "Art Direction",
+        "Motion Design",
+        "Branding",
+        "Animation",
+        "UI Design",
+        "Interactive Design",
+        "3D Design",
+        "Motion Graphics"
+      ]
+    }
+    </script>
+
+    <title>Catalina Mejia Martinez – Art Direction & Motion Design Berlin</title>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
-
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
   </body>
 </html>

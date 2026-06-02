@@ -103,8 +103,9 @@ const Home = () => {
     <>
       <BackgroundBlobs />
        <SEO
-        title="Home - My Website"
-        description="Welcome to my website homepage"
+        title="Catalina Mejia Martinez – Art Direction & Motion Design Berlin"
+        description="Freiberufliche Art Directorin und Motion Designerin aus Berlin. Portfolio mit Projekten aus Branding, Animation, UI-Design, Motion Graphics und Interactive Design."
+        keywords="Art Direction, Motion Design, Branding, Animation, UI Design, Interactive Design, Motion Graphics, 3D Design, Freelance, Berlin, Catalina Mejia Martinez, cmmvisual"
       />
 
       <HeroVideo />

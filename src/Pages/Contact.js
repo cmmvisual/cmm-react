@@ -15,9 +15,10 @@ const contactText = [
 function Contact() {
   return (
     <div>
-      <SEO 
-        title="Contact - My Website" 
-        description="Welcome to my website homepage"
+      <SEO
+        title="Kontakt – Catalina Mejia Martinez | Art Direction & Motion Design Berlin"
+        description="Projekt anfragen, Zusammenarbeit besprechen oder einfach Hallo sagen – kontaktiere Catalina Mejia Martinez, freiberufliche Art Directorin und Motion Designerin aus Berlin."
+        keywords="Kontakt, Art Direction Anfrage, Motion Design Freelance Berlin, Freelance Designerin beauftragen, Catalina Mejia Martinez Kontakt, cmmvisual"
       />
 
       <div className='max-width pad-v-100'>
