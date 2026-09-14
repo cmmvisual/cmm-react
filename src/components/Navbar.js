@@ -17,7 +17,7 @@ function Navbar() {
             </a>
             <ul className="navbar-links">
                 <li><a href="/">Home</a></li>
-                <li><a href="/contact">Kontact</a></li>
+                <li><a href="/contact">Kontakt</a></li>
             </ul>
         </nav>
     </div>
