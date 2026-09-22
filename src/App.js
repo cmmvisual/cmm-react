@@ -16,6 +16,7 @@ import Nevio from './Pages/References/Nevio.js';
 import JanPlewka from './Pages/References/jan-plewka.js';
 import Innovationspreis from './Pages/References/innovationspreis.js';
 import BBUVerbandstag from './Pages/References/BBU-Verbandstag.js';
+import Volarex from './Pages/References/Volarex.js';
 
 
 import Impressum from './Pages/Impressum.js';
@@ -45,6 +46,7 @@ function App() {
           <Route path="/jan-plewka" element={<JanPlewka/>} />
           <Route path="/innovationspreis" element={<Innovationspreis/>} />
           <Route path="/bbu-verbandstag" element={<BBUVerbandstag/>} />
+          <Route path="/volarex" element={<Volarex/>} />
 
 
           <Route path="/impressum" element={<Impressum/>} />

@@ -52,6 +52,7 @@ import ClientInteam from '../assets/Refs/Inteam/Home-Inteam_Cover.png'
 import ClientJan from '../assets/Refs/Jan/Home-Jan_Cover.png'
 import ClientInno from '../assets/Refs/Innovationspreis/Home-Innopreis.png'
 import ClientBBU from '../assets/Refs/BBU/Home-BBU_Cover.png'
+import ClientVolarex from '../assets/Refs/Volarex/Volarex-Cover.png'
 
 // Asset Imports-References
 import starLila from '../assets/Images/Brandelements/Star-Lila.svg';
@@ -231,9 +232,9 @@ const Home = () => {
           <div className='flex just-content-center'>
             <div className='skills-tag-group max-width-700 just-content-center'>
               <span className='skill-tag'>Adobe Express</span>
-              <span className='skill-tag'>ChatGPT</span>
-              <span className='skill-tag'>Firefly</span>
-              <span className='skill-tag'>Runway</span>
+              <span className='skill-tag'>PowerPoint</span>
+              <span className='skill-tag'>Weavy (KI)</span>
+              <span className='skill-tag'>Claude (KI)</span>
               <span className='skill-tag'>Webflow</span>
               <span className='skill-tag'>HTML / CSS</span>
               <span className='skill-tag'>React (Basic)</span>
@@ -247,13 +248,22 @@ const Home = () => {
 
           <div className='pad-v-100'>
 
-              <TextSectionCenter title="Projektauswahl" 
+              <TextSectionCenter title="Referenzen" 
                 paragraphs={[
-              "Da viele meiner Arbeiten der Geheimhaltung unterliegen, zeigt diese Auswahl nur einen Bruchteil meines Portfolios. Gerne präsentiere ich Ihnen in einem persönlichen Gespräch weitere, spezifische Referenzen." 
+              "Da viele meiner Arbeiten im Auftrag von Agenturen entstehen und der Geheimhaltung unterliegen, zeigt dieses Portfolio nur einen Auszug. Weitere spezifische Referenzen stelle ich Ihnen gerne in einem persönlichen Gespräch vor." 
               ]}
               />
 
               <div className='flex clients-section'>
+
+                <Link to="/volarex" className='clients-container'>
+                  <div>
+                    <span className='ref-title'>Volarex</span>
+                    <span className="read-more">read more</span>
+                  </div>
+                  <img src={ClientVolarex} alt="Volarex Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
+                </Link>
 
                  <Link to="/jan-plewka" className='clients-container'>
                   <div>
@@ -326,6 +336,8 @@ const Home = () => {
                   <img src={ClientGewobag} alt="Gewobag Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
+
+                
 
               </div>
 

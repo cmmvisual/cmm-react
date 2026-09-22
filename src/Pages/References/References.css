@@ -73,6 +73,78 @@
   border-radius: 8px;
 }
 
+/* Image Gallery grid - 9:16, fully visible (no cropping) */
+
+.image-gallery--ratio-9-16 img {
+  height: auto;
+  aspect-ratio: 9 / 16;
+  object-fit: contain;
+  background-color: #f2f2f2;
+}
+
+/* Image Gallery grid - square, fully visible (no cropping) */
+
+.image-gallery--ratio-square img {
+  height: auto;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+  background-color: #f2f2f2;
+}
+
+/* Video Showcase */
+
+.video-showcase {
+  display: flex;
+  justify-content: center;
+}
+
+.video-frame {
+  position: relative;
+  width: 100%;
+  max-width: 320px;
+  padding: 6px;
+  border-radius: 26px;
+  background: linear-gradient(135deg, #B1FD03, #F4A2DD, #F05318);
+  box-shadow: 0 25px 70px rgba(177, 253, 3, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.video-frame:hover {
+  transform: scale(1.02);
+  box-shadow: 0 30px 80px rgba(244, 162, 221, 0.3);
+}
+
+.video-frame video {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  background: #0a0a1a;
+}
+
+.video-play-overlay {
+  position: absolute;
+  top: calc(50% - 20px);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: #B1FD03;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 5px; /* optically center the play triangle */
+  box-shadow: 0 0 0 10px rgba(177, 253, 3, 0.2), 0 10px 30px rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  pointer-events: auto;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.video-play-overlay:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 0 0 14px rgba(177, 253, 3, 0.25), 0 12px 35px rgba(0, 0, 0, 0.45);
+}
+
 /* Big Images */
 
 .image-big {
