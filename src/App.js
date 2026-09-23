@@ -11,6 +11,7 @@ import ScrollToTop from './components/ScrollToTop';
 import Gewobag from './Pages/References/Gewobag.js';
 import Medieninsider from './Pages/References/Medieninsider.js';
 import DRF from './Pages/References/DRF.js';
+import DRFLuftrettung from './Pages/References/DRF-Luftrettung.js';
 import Inteam from './Pages/References/Inteam.js';
 import Nevio from './Pages/References/Nevio.js';
 import JanPlewka from './Pages/References/jan-plewka.js';
@@ -41,6 +42,7 @@ function App() {
           <Route path="/gewobag" element={<Gewobag />} />
           <Route path="/medieninsider" element={<Medieninsider />} />
           <Route path="/drf" element={<DRF/>} />
+          <Route path="/drf-luftrettung" element={<DRFLuftrettung/>} />
           <Route path="/inteam" element={<Inteam/>} />
           <Route path="/nevio" element={<Nevio/>} />
           <Route path="/jan-plewka" element={<JanPlewka/>} />

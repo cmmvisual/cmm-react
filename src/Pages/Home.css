@@ -181,6 +181,32 @@
   transition: transform 0.2s ease; /* Smooth zoom transition */
 }
 
+.clients-container > .category-pills {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  z-index: 600;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 8px;
+  pointer-events: none;
+}
+
+.category-pill {
+  background: #ffffff;
+  border: solid 0.1px #ffffff;
+  color: #0a0a1a;
+  white-space: nowrap;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 0.7em;
+  padding: 4px 12px;
+  border-radius: 30px;
+}
+
 .clienticon-lila {
   position: absolute;
   width: 120%;

@@ -145,6 +145,58 @@
   box-shadow: 0 0 0 14px rgba(177, 253, 3, 0.25), 0 12px 35px rgba(0, 0, 0, 0.45);
 }
 
+/* Section Heading - extra breathing room between page sections */
+
+.section-heading {
+  margin-top: 120px;
+  margin-bottom: 40px;
+}
+
+.section-gap {
+  margin-top: 120px;
+}
+
+/* Standalone Video - full-width 16:9 */
+
+.video-standalone {
+  position: relative;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 6px;
+  border-radius: 26px;
+  background: linear-gradient(135deg, #B1FD03, #F4A2DD, #F05318);
+  box-shadow: 0 25px 70px rgba(177, 253, 3, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.video-standalone:hover {
+  transform: scale(1.01);
+  box-shadow: 0 30px 80px rgba(244, 162, 221, 0.3);
+}
+
+.video-standalone video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 20px;
+  background: #0a0a1a;
+}
+
+/* Video Grid - self-uploaded videos placed side by side */
+
+.video-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.video-grid .video-frame {
+  flex: 1 1 280px;
+}
+
 /* Big Images */
 
 .image-big {
@@ -177,6 +229,11 @@
   .portfolio-box {
     flex-direction: column;
     gap: 20px;
+    padding: 40px;
+  }
+
+  .video-grid {
+    gap: 20px;
   }
 
 }
@@ -186,5 +243,9 @@
   .image-gallery img {
     flex: 1 1 100%;
     max-width: 100%;
+  }
+
+  .short-text {
+    min-width: 0;
   }
 }

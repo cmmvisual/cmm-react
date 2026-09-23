@@ -46,6 +46,8 @@ import refHome03 from '../assets/Refs/DRF/DRF-UI-Station-UI_1080x1350.jpg';
 // Asset Imports-References
 import ClientGewobag from '../assets/Refs/Gewobag/Home-Gewobag_Cover.png';
 import ClientDRF from '../assets/Refs/DRF/Home-DRF_Cover.png';
+// TODO: Placeholder cover image for DRF Luftrettung — replace with the real one.
+import ClientDRFLuftrettung from '../assets/Refs/DRF/DRF-Logo.png';
 import ClientNevio from '../assets/Refs/Nevio/Home-Gelato_Cover.png'
 import ClientMedieninsider from '../assets/Refs/Medieninsider/Home-Medieninsider_Cover.png'
 import ClientInteam from '../assets/Refs/Inteam/Home-Inteam_Cover.png'
@@ -261,14 +263,21 @@ const Home = () => {
                     <span className='ref-title'>Volarex</span>
                     <span className="read-more">read more</span>
                   </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>Art Direction</span>
+                    <span className='category-pill'>Motion Design</span>
+                  </div>
                   <img src={ClientVolarex} alt="Volarex Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
                  <Link to="/jan-plewka" className='clients-container'>
                   <div>
-                    <span className='ref-title'>Jan Plewka</span> 
+                    <span className='ref-title'>Jan Plewka</span>
                     <span className="read-more">read more</span>
+                  </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>Motion Design</span>
                   </div>
                   <img src={ClientJan} alt="Jan Plewka Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
@@ -276,8 +285,11 @@ const Home = () => {
 
                 <Link to="/nevio"  className='clients-container'>
                   <div>
-                    <span className='ref-title'>Nevio Passaro - Gelato</span> 
+                    <span className='ref-title'>Nevio Passaro - Gelato</span>
                     <span className="read-more">read more</span>
+                  </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>Motion Design</span>
                   </div>
                   <img src={ClientNevio} alt="Nevio Passaro Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
@@ -288,23 +300,48 @@ const Home = () => {
                     <span className='ref-title'>BBU Verbandstag</span>
                     <span className="read-more">read more</span>
                   </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>Mapping</span>
+                    <span className='category-pill'>Motion Design</span>
+                  </div>
                   <img src={ClientBBU} alt="BBU Verbandstag Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
                 <Link to="/inteam" className='clients-container'>
                   <div>
-                    <span className='ref-title'>Inteam Beziehungsbox</span> 
+                    <span className='ref-title'>Inteam Beziehungsbox</span>
                     <span className="read-more">read more</span>
+                  </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>Packaging Design</span>
+                    <span className='category-pill'>3D Design</span>
                   </div>
                   <img src={ClientInteam} alt="Inteam Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
                 </Link>
 
+                <Link to="/drf-luftrettung" className='clients-container'>
+                  <div>
+                    <span className='ref-title'>DRF Luftrettung</span>
+                    <span className="read-more">read more</span>
+                  </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>Video Editing</span>
+                    <span className='category-pill'>Motion Design</span>
+                  </div>
+                  <img src={ClientDRFLuftrettung} alt="DRF Luftrettung Client Cover" className='client-image'/>
+                  <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
+                </Link>
+
                 <Link to="/drf" className='clients-container'>
                   <div>
-                    <span className='ref-title'>DRF - Welt der Luftretter</span> 
+                    <span className='ref-title'>DRF - Welt der Luftretter</span>
                     <span className="read-more">read more</span>
+                  </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>3D Design</span>
+                    <span className='category-pill'>Interactive Design</span>
                   </div>
                   <img src={ClientDRF} alt="DRF - Welt der Luftretter Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
@@ -312,8 +349,11 @@ const Home = () => {
 
                 <Link to="/medieninsider" className='clients-container'>
                   <div>
-                    <span className='ref-title'>Medieninsider</span> 
+                    <span className='ref-title'>Medieninsider</span>
                     <span className="read-more">read more</span>
+                  </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>Branding</span>
                   </div>
                   <img src={ClientMedieninsider} alt="Medieninsider Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
@@ -321,8 +361,12 @@ const Home = () => {
 
                 <Link to="/innovationspreis" className='clients-container'>
                   <div>
-                    <span className='ref-title'>Innovationspreis BB</span> 
+                    <span className='ref-title'>Innovationspreis BB</span>
                     <span className="read-more">read more</span>
+                  </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>2D Illustration</span>
+                    <span className='category-pill'>Motion Design</span>
                   </div>
                   <img src={ClientInno} alt="Innovationspreis Berlin-Brandenburg Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
@@ -332,6 +376,10 @@ const Home = () => {
                   <div>
                     <span className='ref-title'>Gewobag</span>
                     <span className="read-more">read more</span>
+                  </div>
+                  <div className='category-pills'>
+                    <span className='category-pill'>3D Design</span>
+                    <span className='category-pill'>Motion Design</span>
                   </div>
                   <img src={ClientGewobag} alt="Gewobag Client Cover" className='client-image'/>
                   <img src={starLila} alt="Icon Lila" className='clienticon-lila'/>
